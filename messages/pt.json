@@ -1,0 +1,290 @@
+{
+  "Nav": {
+    "products": "Produtos",
+    "careers": "Carreiras",
+    "about": "Sobre",
+    "talk": "Falar com a gente"
+  },
+  "Footer": {
+    "careers": "Carreiras",
+    "news": "Notícias",
+    "privacy": "Política de Privacidade",
+    "mediaKit": "Media Kit",
+    "contact": "Contato",
+    "copyright": "© 2026 EFFRONT"
+  },
+  "Hero": {
+    "kicker": "Infraestrutura para esports",
+    "lead": "O software por trás",
+    "words": [
+      "do competitivo.",
+      "da gestão de times.",
+      "de campeonatos amadores.",
+      "da inteligência de draft.",
+      "de dados em tempo real."
+    ],
+    "sub": "Do time amador em ascensão à organização que já compete no mais alto nível: construímos a base técnica que roda por trás - do draft ao chaveamento.",
+    "note": "Hoje, focados em <b>League of Legends</b>. A mesma base vai sustentar outros títulos conforme o ecossistema cresce."
+  },
+  "Mission": {
+    "sectionLabel": "Quem somos",
+    "statementPrefix": "Começamos resolvendo um problema real: ",
+    "statementHighlight": "organizações competitivas de League of Legends sem ferramenta nenhuma decente",
+    "statementSuffix": " pra gerenciar time, analisar draft ou rodar um campeonato.",
+    "follow": "Hoje, construímos a base técnica que sustenta isso. O que listamos aqui existe - e o que ainda está em construção aparece marcado como tal.",
+    "link": "Nossa história →"
+  },
+  "Capabilities": {
+    "sectionLabel": "O que construímos",
+    "heading": "Uma base técnica, quatro produtos.",
+    "intro": "Cada item abaixo já está construído e em uso - não é roadmap, é o que roda hoje por trás do ProStaff, do ArenaBR, do scrims.lol e do peneira.gg.",
+    "items": [
+      {
+        "tag": "IA",
+        "title": "Inteligência de draft",
+        "body": "Sinergia entre campeões, matchups de counter e probabilidade de vitória calculados a partir de milhares de partidas - o mesmo motor que sugere picks durante o draft ao vivo."
+      },
+      {
+        "tag": "Dados ao vivo",
+        "title": "Partidas em tempo real",
+        "body": "Integração direta com a Riot Games API e a PandaScore, com atualização de placares ao vivo via streaming de eventos."
+      },
+      {
+        "tag": "Segurança",
+        "title": "Arquitetura multi-tenant",
+        "body": "Isolamento completo de dados entre organizações e auditoria de acesso em cada camada do sistema."
+      },
+      {
+        "tag": "ArenaBR",
+        "title": "Infraestrutura de competição",
+        "body": "Chaveamento, inscrição de times e pagamento via PIX - de ponta a ponta, para campeonatos amadores."
+      },
+      {
+        "tag": "scrims.lol",
+        "title": "Matchmaking de scrims",
+        "body": "Sugestão de adversários por região e tier, disponibilidade configurável por semana e convites de scrim com aceite - mais inhouse com balanceamento por tier e analytics próprio."
+      },
+      {
+        "tag": "peneira.gg",
+        "title": "Recrutamento e tryouts",
+        "body": "Banco de talentos, vagas e peneiras sobre dados reais da Riot API - MVP em desenvolvimento sobre a prostaff-api e o riot-gateway."
+      }
+    ]
+  },
+  "Products": {
+    "sectionLabel": "Produtos",
+    "heading": "Um produto por etapa da jornada competitiva.",
+    "whatItDoes": "O que faz",
+    "builtFor": "Feito para",
+    "prostaff": {
+      "eyebrow": "Para organizações competitivas",
+      "body": "Gestão completa para organizações de League of Legends: escalação, estatísticas de jogador, análise de draft e scouting - tudo em um só lugar, pensado para quem já leva o cenário competitivo a sério.",
+      "cta": "Ir para prostaff.gg →",
+      "features": [
+        "Análise de draft e probabilidade de vitória com IA",
+        "Scouting e watchlist de jogadores",
+        "Mensageria e revisão de VOD em tempo real",
+        "Metas de time e acompanhamento de evolução"
+      ],
+      "builtFor": [
+        "Organizações profissionais e semi-profissionais",
+        "Elenco e staff técnico completo",
+        "Performance competitiva de verdade - não é um app de estatística casual"
+      ],
+      "tagline": "Gestão de times competitivos, com IA de draft."
+    },
+    "scrims": {
+      "eyebrow": "Para treinos competitivos",
+      "body": "Matchmaking de scrims entre times de League of Legends: sugestões de adversário por região e tier, disponibilidade configurável por semana, e convites com data proposta e mensagem - o desempenho de cada treino fica registrado direto no analytics do scrims.lol.",
+      "cta": "Ir para scrims.lol →",
+      "features": [
+        "Matchmaking por região e tier",
+        "Disponibilidade configurável por semana",
+        "Convites de scrim com aceite do adversário",
+        "Inhouse com balanceamento por tier",
+        "Lobby público do time",
+        "Analytics próprio: KDA, gráficos e tendências"
+      ],
+      "builtFor": [
+        "Times em busca de treinos competitivos regulares",
+        "Elencos amadores e semi-profissionais",
+        "Mesmo backend que sustenta o ProStaff"
+      ],
+      "tagline": "Matchmaking de scrims pra treino competitivo."
+    },
+    "arenabr": {
+      "eyebrow": "Para o cenário amador",
+      "body": "Organize e participe de campeonatos amadores de League of Legends - do chaveamento à inscrição, com pagamento integrado, sem depender de planilha e grupo de WhatsApp.",
+      "cta": "Ir para o ArenaBR →",
+      "features": [
+        "Chaveamento automático de campeonatos",
+        "Inscrição de times simplificada",
+        "Pagamento via PIX integrado",
+        "Painel dedicado para organizadores e jogadores"
+      ],
+      "builtFor": [
+        "Jogadores da cena amadora",
+        "Organizadores de campeonato",
+        "Competição estruturada - mesma base técnica que sustenta o ProStaff"
+      ],
+      "tagline": "Campeonatos amadores, do chaveamento ao pagamento."
+    },
+    "peneira": {
+      "eyebrow": "Para quem procura (e monta) time",
+      "status": "MVP em desenvolvimento",
+      "body": "Recrutamento e tryouts para o cenário amador e semi-profissional brasileiro: banco de talentos, vagas de times e peneiras - construído sobre dados reais da Riot API via riot-gateway, em vez de perfil auto-declarado.",
+      "features": [
+        "Banco de talentos com filtros e perfis públicos",
+        "Vagas de times com candidatura",
+        "Peneiras: eventos de tryout com inscrição",
+        "LFT Generator - post pronto pra Discord e Twitter"
+      ],
+      "builtFor": [
+        "Jogadores e staff em busca de time",
+        "Organizações recrutando elenco",
+        "Mesmo backend: prostaff-api + riot-gateway"
+      ],
+      "tagline": "Recrutamento e tryouts sobre dados reais da Riot API."
+    },
+    "pageIntro": "Um produto por etapa da jornada competitiva - do amador em ascensão à organização que já compete no mais alto nível.",
+    "viewAll": "Ver todos os produtos →"
+  },
+  "Contact": {
+    "sectionLabel": "Contato",
+    "heading": "Quer conhecer melhor? Fale com quem constrói a infraestrutura por trás do seu time.",
+    "sub": "Sem formulário, sem funil. Um e-mail direto pra quem escreve o código."
+  },
+  "About": {
+    "kicker": "Sobre",
+    "h1": "O que construímos <gold>fala por nós.</gold>",
+    "lede": "A Effront é a empresa por trás do ProStaff, do ArenaBR, do scrims.lol e do peneira.gg. Construímos o software que roda por trás da gestão de times e da organização de campeonatos - e esta página mostra só o que já roda hoje.",
+    "sec1": "De onde viemos",
+    "sec3": "O que já construímos",
+    "note": "A Effront é um projeto recente. Em vez de inflar números ou inventar logos de cliente, listamos nesta página exatamente o que já está construído e rodando - e nada além disso.",
+    "builtH2": "Não é roadmap - é o que roda hoje.",
+    "builtIntro": "Cada item existe, está em produção e pode ser verificado nos próprios produtos.",
+    "b1": "Sinergia de campeões, matchups de counter e probabilidade de vitória, calculados a partir de milhares de partidas reais.",
+    "b2t": "Riot Games API + PandaScore",
+    "b2tag": "Dados",
+    "b2": "Sincronização de dados de jogador e partida, incluindo o pipeline de atualização de placares ao vivo.",
+    "b3t": "Infraestrutura de competição amadora",
+    "b3": "Chaveamento, inscrição e pagamento via PIX - de ponta a ponta, sem depender de planilha.",
+    "b4": "Isolamento de dados entre organizações e auditoria de acesso em cada camada - levado a sério desde o início.",
+    "tlSec": "Linha do tempo",
+    "tlH2": "Marcos, na ordem em que aconteceram.",
+    "tlIntro": "Datas de entrega reais - sem narrativa retrofit.",
+    "tl1t": "ProStaff é fundado",
+    "tl1": "Início do desenvolvimento da plataforma de gestão de times.",
+    "tl2t": "Primeiros times parceiros",
+    "tl2": "Organizações brasileiras de League of Legends começam a usar o ProStaff em produção, com integração à Riot Games API e à PandaScore.",
+    "tl3t": "ArenaBR no ar",
+    "tl3": "Campeonatos amadores com chaveamento e pagamento via PIX.",
+    "tl4t": "scrims.lol no ar",
+    "tl4": "Matchmaking de scrims com convites, inhouse e analytics próprio.",
+    "tmSec": "Quem constrói",
+    "tmH2": "Gente real, com nome e LinkedIn.",
+    "tmIntro": "Sem cargo inflado nem equipe fantasma - quem aparece aqui escreve o código.",
+    "ecoSec": "Onde acompanhar"
+  },
+  "Careers": {
+    "kicker": "Carreiras",
+    "h1": "Time pequeno, <gold>de propósito.</gold>",
+    "lede": "Não temos vagas abertas no momento - e não vamos listar vaga fantasma pra parecer maiores. Quando abrirmos uma posição, ela vai estar listada aqui.",
+    "all": "Todas",
+    "cat1": "Desenvolvimento",
+    "cat2": "Design",
+    "cat3": "Conteúdo",
+    "cat4": "Marketing",
+    "empty": "0 vagas abertas agora. Quando uma posição abrir, ela aparece aqui - já com candidatura.",
+    "ctaH2": "Acha que devíamos te conhecer mesmo assim?",
+    "detailsCta": "Detalhes →"
+  },
+  "News": {
+    "kicker": "Notícias",
+    "h1": "O que aconteceu, <gold>quando aconteceu.</gold>",
+    "lede": "Sem release inflado - esta página registra os marcos reais dos produtos."
+  },
+  "Privacy": {
+    "kicker": "Política de Privacidade",
+    "h1": "Política de Privacidade",
+    "updated": "Última atualização: julho de 2026",
+    "intro": "Esta política cobre apenas o effront.gg -- o site institucional que você está lendo agora. Cada produto (ProStaff, ArenaBR, scrims.lol, peneira.gg) tem sua própria política de privacidade, cobrindo como trata dados de jogadores, times e organizações. Esta página cobre só o que acontece quando você interage com o effront.gg em si.",
+    "sections": [
+      {
+        "title": "1. Informações que coletamos",
+        "body": "Este site não tem contas, não tem formulário de cadastro e não usa rastreamento via cookies. A única informação que recebemos é o que você mesmo decide nos enviar: se você mandar um e-mail para contato@effront.gg (uma candidatura, uma pergunta geral), recebemos seu endereço de e-mail, nome, e o que mais você incluir na mensagem. Logs padrão de servidor web (endereço IP, tipo de navegador, páginas acessadas) podem ser coletados pelo nosso provedor de hospedagem por motivos de segurança e disponibilidade."
+      },
+      {
+        "title": "2. Como usamos",
+        "body": "Para responder sua mensagem; para avaliar uma candidatura, se foi isso que você mandou; para manter nossa infraestrutura segura e disponível. Não usamos nada que você mande para marketing, e não construímos nenhum perfil a partir disso."
+      },
+      {
+        "title": "3. Compartilhamento e divulgação de dados",
+        "body": "Não vendemos, alugamos nem compartilhamos suas informações com anunciantes. Uma candidatura pode ser compartilhada internamente com quem estiver envolvido na contratação daquela vaga. Podemos divulgar informações se exigido por lei."
+      },
+      {
+        "title": "4. Retenção de dados",
+        "body": "Guardamos correspondência por e-mail e candidaturas pelo tempo razoavelmente necessário para responder ou concluir um processo seletivo, depois apagamos. Você pode pedir para apagarmos qualquer coisa que tenha nos enviado, a qualquer momento."
+      },
+      {
+        "title": "5. Segurança",
+        "body": "E-mails enviados para contato@effront.gg trafegam pela segurança padrão do provedor de e-mail. Como este site não lida com senhas, dados de pagamento ou contas de jogo, nada disso se aplica aqui -- veja a política de privacidade do produto específico para saber como ele protege seus dados."
+      },
+      {
+        "title": "6. Seus direitos (LGPD)",
+        "body": "Você pode nos pedir, a qualquer momento, para: dizer o que temos registrado sobre você; corrigir; apagar; te mandar uma cópia. Fale com contato@effront.gg para qualquer uma dessas solicitações."
+      },
+      {
+        "title": "7. Privacidade de crianças",
+        "body": "Este site não é direcionado a menores de 13 anos, e não coletamos informação deles conscientemente."
+      },
+      {
+        "title": "8. Transferência internacional de dados",
+        "body": "Infraestrutura de e-mail e hospedagem pode estar localizada fora do Brasil. Tomamos medidas razoáveis para manter sua informação protegida onde quer que seja processada."
+      },
+      {
+        "title": "9. Mudanças nesta política",
+        "body": "Se esta política mudar de forma significativa, atualizamos a data no topo desta página."
+      },
+      {
+        "title": "10. Contato",
+        "body": "contato@effront.gg"
+      }
+    ],
+    "note": "Este texto foi escrito internamente com base no que o effront.gg realmente faz hoje. Recomendamos revisão jurídica formal antes de tratá-lo como documento definitivo."
+  },
+  "MediaKit": {
+    "kicker": "Media Kit",
+    "h1": "Marca <gold>Effront.</gold>",
+    "lede": "O essencial pra citar ou mostrar a Effront e seus produtos - direto do design system.",
+    "s1": "Wordmark",
+    "s1note": "Bricolage Grotesque 800, sempre com o ponto dourado, sobre fundo escuro.",
+    "s2": "Cores",
+    "rules": "Dourado nunca em preenchimento sólido - só borda, texto ou gradiente pra transparente. Sem gradiente azul-arroxeado, sem foto em superfície.",
+    "c1": "Dourado Hextech",
+    "c2": "Fundo",
+    "c3": "Azul profundo",
+    "c4": "Teal",
+    "s3": "Tipografia",
+    "t1": "Display - títulos",
+    "t2": "Corpo - texto e UI",
+    "s4": "Logos de produto",
+    "copy": "Copiar HEX",
+    "download": "Baixar PNG →"
+  },
+  "Vaga": {
+    "title": "Vaga - Effront",
+    "back": "← Todas as vagas",
+    "apply": "Candidatar por e-mail →",
+    "notFound": "Vaga não encontrada - pode já ter sido fechada."
+  },
+  "Meta": {
+    "titleLanding": "Effront - Infraestrutura para o competitivo",
+    "titleAbout": "Sobre - Effront",
+    "titleCareers": "Carreiras - Effront",
+    "titleNews": "Notícias - Effront",
+    "titlePrivacy": "Política de Privacidade - Effront",
+    "titleMediaKit": "Media Kit - Effront",
+    "titleProducts": "Produtos - Effront"
+  }
+}
