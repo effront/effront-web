@@ -29,7 +29,7 @@
   "Mission": {
     "sectionLabel": "Quem somos",
     "statementPrefix": "Começamos resolvendo um problema real: ",
-    "statementHighlight": "organizações competitivas de League of Legends sem ferramenta nenhuma decente",
+    "statementHighlight": "organizações competitivas de League of Legends sem ferramentas profissionais",
     "statementSuffix": " pra gerenciar time, analisar draft ou rodar um campeonato.",
     "follow": "Hoje, construímos a base técnica que sustenta isso. O que listamos aqui existe - e o que ainda está em construção aparece marcado como tal.",
     "link": "Nossa história →"
@@ -67,7 +67,7 @@
       {
         "tag": "peneira.gg",
         "title": "Recrutamento e tryouts",
-        "body": "Banco de talentos, vagas e peneiras sobre dados reais da Riot API - MVP em desenvolvimento sobre a prostaff-api e o riot-gateway."
+        "body": "Banco de talentos, vagas e peneiras alimentadas por dados reais da Riot API - MVP em desenvolvimento sobre a prostaff-api e o riot-gateway."
       }
     ]
   },
@@ -144,7 +144,7 @@
         "Organizações recrutando elenco",
         "Mesmo backend: prostaff-api + riot-gateway"
       ],
-      "tagline": "Recrutamento e tryouts sobre dados reais da Riot API."
+      "tagline": "Recrutamento e tryouts alimentados por dados reais da Riot API."
     },
     "pageIntro": "Um produto por etapa da jornada competitiva - do amador em ascensão à organização que já compete no mais alto nível.",
     "viewAll": "Ver todos os produtos →"

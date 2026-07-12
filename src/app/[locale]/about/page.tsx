@@ -21,21 +21,21 @@ const TEAM = [
     name: "Michael Douglas",
     role: "CEO & Founder",
     linkedin: "https://www.linkedin.com/in/michael-bullet",
-    avatar: "https://prostaff.gg/team/md.webp",
+    avatar: "/team/md.webp",
     initials: "MD",
   },
   {
     name: "Kevin Almeida",
     role: "UX Designer",
     linkedin: "https://www.linkedin.com/in/kevin-almeida-365601113",
-    avatar: "https://prostaff.gg/team/kev.webp",
+    avatar: "/team/kev.webp",
     initials: "KA",
   },
   {
     name: "Maielin Hauschild",
     role: "VP of Marketing",
     linkedin: "https://www.linkedin.com/in/mai%C3%A9lin-hauschild",
-    avatar: "https://prostaff.gg/team/hausch.webp",
+    avatar: "/team/hausch.webp",
     initials: "MH",
   },
 ];
@@ -178,7 +178,6 @@ export default async function AboutPage({ params }: Props) {
                   alt={member.name}
                   width={56}
                   height={56}
-                  unoptimized
                 />
                 <div>
                   <h3>{member.name}</h3>

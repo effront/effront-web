@@ -29,7 +29,7 @@
   "Mission": {
     "sectionLabel": "Who we are",
     "statementPrefix": "We started by solving a real problem: ",
-    "statementHighlight": "competitive League of Legends organizations without a single decent tool",
+    "statementHighlight": "competitive League of Legends organizations lacking professional tools",
     "statementSuffix": " to manage a roster, analyze a draft, or run a tournament.",
     "follow": "Today we build the technical foundation that supports this. What we list here exists - and anything still in the works is labeled as such.",
     "link": "Our story →"
@@ -67,7 +67,7 @@
       {
         "tag": "peneira.gg",
         "title": "Recruitment and tryouts",
-        "body": "Talent pool, team openings and tryouts on real Riot API data - an MVP in development on top of prostaff-api and riot-gateway."
+        "body": "Talent pool, team openings and tryouts powered by real Riot API data - an MVP in development on top of prostaff-api and riot-gateway."
       }
     ]
   },
@@ -144,7 +144,7 @@
         "Organizations recruiting a roster",
         "Same backend: prostaff-api + riot-gateway"
       ],
-      "tagline": "Recruitment and tryouts on real Riot API data."
+      "tagline": "Recruitment and tryouts powered by real Riot API data."
     },
     "pageIntro": "One product per stage of the competitive journey - from the amateur team on the rise to the organization already competing at the highest level.",
     "viewAll": "See all products →"
