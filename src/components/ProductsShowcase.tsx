@@ -51,9 +51,9 @@ export function ProductsShowcase({
             role="tab"
             aria-selected={i === active}
             aria-label={prod.name}
-            className={`prodshow-tab${i === active ? "is-active" : ""}${
-              prod.wordmark ? "is-wordmark" : ""
-            }`}
+            className={["prodshow-tab", i === active && "is-active", prod.wordmark && "is-wordmark"]
+              .filter(Boolean)
+              .join(" ")}
             onClick={() => setActive(i)}
           >
             <Image src={prod.logo} alt={prod.name} width={prod.logoW} height={prod.logoH} />
@@ -95,7 +95,9 @@ export function ProductsShowcase({
             ) : (
               <div className="prodshow-placeholder">
                 <Image
-                  className={`prodshow-ph-logo${p.wordmark ? "is-wordmark" : ""}`}
+                  className={["prodshow-ph-logo", p.wordmark && "is-wordmark"]
+                    .filter(Boolean)
+                    .join(" ")}
                   src={p.logo}
                   alt=""
                   aria-hidden
