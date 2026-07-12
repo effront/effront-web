@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { SocialLinks } from "./SocialLinks";
@@ -9,8 +10,18 @@ export function SiteFooter() {
     <footer>
       <div className="wrap">
         <div className="foot-brand">
-          <Link href="/" className="wordmark text-[18px]">
-            Effront<span className="dot">.</span>
+          <Link href="/" className="wordmark foot-wordmark text-[18px]">
+            <Image
+              className="foot-logo"
+              src="/logos/effront-mark.png"
+              alt=""
+              aria-hidden
+              width={22}
+              height={22}
+            />
+            <span>
+              Effront<span className="dot">.</span>
+            </span>
           </Link>
           <span className="foot-tagline">Tech for eSports</span>
         </div>

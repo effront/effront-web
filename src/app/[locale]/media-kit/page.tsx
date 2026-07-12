@@ -32,7 +32,7 @@ const SWATCHES = [
 const LOGOS = [
   { file: "prostaff-logo.png", name: "ProStaff" },
   { file: "arenabr-logo.png", name: "ArenaBR" },
-  { file: "scrims-logo.png", name: "scrims.lol" },
+  { file: "scrims-logo.png", name: "scrims.lol", cls: "is-scrims" },
   { file: "peneira-logo.png", name: "peneira.gg" },
 ];
 
@@ -72,9 +72,18 @@ export default async function MediaKitPage({ params }: Props) {
               <span>{t("s1")}</span>
             </div>
             <div className="mk-panel">
-              <span className="mk-wordmark">
-                Effront<span className="dot">.</span>
-              </span>
+              <div className="mk-lockup">
+                <Image
+                  className="mk-logo"
+                  src="/logos/effront-mark.png"
+                  alt="Effront logo"
+                  width={96}
+                  height={102}
+                />
+                <span className="mk-wordmark">
+                  Effront<span className="dot">.</span>
+                </span>
+              </div>
             </div>
             <p className="mk-note">{t("s1note")}</p>
           </div>
@@ -140,6 +149,7 @@ export default async function MediaKitPage({ params }: Props) {
                       alt={`${logo.name} logo`}
                       width={160}
                       height={56}
+                      className={logo.cls}
                     />
                   </div>
                   <div className="mk-fmt">{logo.name} · PNG</div>

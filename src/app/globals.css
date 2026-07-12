@@ -753,6 +753,15 @@ footer .wrap {
   flex-direction: column;
   gap: 4px;
 }
+.foot-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.foot-logo {
+  width: auto;
+  height: 22px;
+}
 .foot-tagline {
   font-size: 11.5px;
   font-weight: 600;
@@ -1038,6 +1047,15 @@ footer .wrap {
   height: 1px;
   background: linear-gradient(to right, var(--gold), var(--gold-faint) 55%, transparent);
 }
+.mk-lockup {
+  display: flex;
+  align-items: center;
+  gap: clamp(18px, 3vw, 34px);
+}
+.mk-logo {
+  width: auto;
+  height: clamp(3rem, 8vw, 6rem);
+}
 .mk-wordmark {
   font-family: var(--font-display-stack, var(--font-display)), sans-serif;
   font-weight: 800;
@@ -1105,6 +1123,11 @@ footer .wrap {
   max-width: 160px;
   height: 56px;
   object-fit: contain;
+}
+/* scrims is an outlined emblem with lots of negative space — scale it up so it
+   reads at the same optical size as the other product logos */
+.mk-card .mk-logo-body img.is-scrims {
+  height: 80px;
 }
 .mk-card .mk-fmt {
   text-align: center;
