@@ -1,41 +1,71 @@
-import { XIcon, InstagramIcon, YouTubeIcon } from "./icons";
+import { XIcon, InstagramIcon, YouTubeIcon, GlobeIcon } from "./icons";
 
-type Socials = { x: string; instagram: string; youtube: string };
+type Brand = {
+  x?: string;
+  instagram?: string;
+  youtube?: string;
+  website?: string;
+};
 
 /**
- * Per-brand social URLs. Effront's accounts are live; the other ecosystem
- * brands are placeholders ("#") until their handles are claimed.
+ * Per-brand links. Only the channels a brand actually has are listed, so each
+ * card renders exactly the icons it should — no dead placeholders.
  */
-const SOCIALS: Record<string, Socials> = {
+const SOCIALS: Record<string, Brand> = {
   Effront: {
     x: "https://x.com/effrontgg",
     instagram: "https://www.instagram.com/effront.gg/",
     youtube: "https://www.youtube.com/@effront",
   },
+  ProStaff: {
+    x: "https://x.com/ProStaffGG",
+    instagram: "https://www.instagram.com/prostaff.gg/",
+    youtube: "https://www.youtube.com/@ProstaffGG",
+  },
+  ArenaBR: {
+    website: "https://arena-br.vercel.app",
+  },
+  "scrims.lol": {
+    website: "https://scrims.lol",
+  },
+  "peneira.gg": {
+    instagram: "https://www.instagram.com/peneira.gg/",
+    website: "https://peneira.gg/",
+  },
 };
 
-const PLACEHOLDER: Socials = { x: "#", instagram: "#", youtube: "#" };
+const LINKS: {
+  key: keyof Brand;
+  label: string;
+  Icon: (props: React.SVGProps<SVGSVGElement>) => React.JSX.Element;
+}[] = [
+  { key: "x", label: "X", Icon: XIcon },
+  { key: "instagram", label: "Instagram", Icon: InstagramIcon },
+  { key: "youtube", label: "YouTube", Icon: YouTubeIcon },
+  { key: "website", label: "Website", Icon: GlobeIcon },
+];
 
 export function SocialLinks({ name = "Effront" }: { name?: string }) {
-  const socials = SOCIALS[name] ?? PLACEHOLDER;
-  const external = (href: string) =>
-    href === "#" ? {} : { target: "_blank", rel: "noopener noreferrer" };
+  const brand = SOCIALS[name];
+  if (!brand) return null;
 
   return (
     <div className="foot-social">
-      <a href={socials.x} aria-label={`${name} - X`} {...external(socials.x)}>
-        <XIcon width={13} height={13} />
-      </a>
-      <a
-        href={socials.instagram}
-        aria-label={`${name} - Instagram`}
-        {...external(socials.instagram)}
-      >
-        <InstagramIcon width={13} height={13} />
-      </a>
-      <a href={socials.youtube} aria-label={`${name} - YouTube`} {...external(socials.youtube)}>
-        <YouTubeIcon width={13} height={13} />
-      </a>
+      {LINKS.map(({ key, label, Icon }) => {
+        const href = brand[key];
+        if (!href) return null;
+        return (
+          <a
+            key={key}
+            href={href}
+            aria-label={`${name} - ${label}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon width={13} height={13} />
+          </a>
+        );
+      })}
     </div>
   );
 }

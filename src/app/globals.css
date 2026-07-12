@@ -406,8 +406,9 @@ section {
   font-weight: 650;
   line-height: 1.32;
   letter-spacing: -0.02em;
-  max-width: 26ch;
+  max-width: 42ch;
   margin-top: 56px;
+  text-wrap: pretty;
 }
 .mission-statement .dim {
   color: var(--fg-faint);
