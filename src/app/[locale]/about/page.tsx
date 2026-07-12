@@ -80,7 +80,6 @@ export default async function AboutPage({ params }: Props) {
                 .replaceAll("</gold>", "</span>"),
             }}
           />
-          <p className="page-lede">{t("lede")}</p>
         </div>
       </header>
 
