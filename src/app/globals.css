@@ -552,6 +552,18 @@ section {
   height: 64px;
   object-fit: contain;
 }
+/* scrims is the only full-bleed square mark — trim its box so it doesn't
+   read as larger than the other icon logos */
+.prod-head img.is-scrims {
+  width: 56px;
+  height: 56px;
+}
+/* ArenaBR is a horizontal wordmark, not an icon — size it by height and let
+   the width follow its natural ratio instead of cramming it into a square */
+.prod-head img.is-wordmark {
+  width: auto;
+  height: 48px;
+}
 .prod-name {
   font-size: clamp(2.8rem, 6vw, 5rem);
   font-weight: 800;

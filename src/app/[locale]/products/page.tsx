@@ -87,7 +87,13 @@ export default async function ProductsPage({ params }: Props) {
           <div className="wrap">
             <span className="prod-eyebrow">{scrims.eyebrow}</span>
             <div className="prod-head">
-              <Image src="/logos/scrims-logo.png" alt="scrims.lol" width={64} height={64} />
+              <Image
+                src="/logos/scrims-logo.png"
+                alt="scrims.lol"
+                width={64}
+                height={64}
+                className="is-scrims"
+              />
               <h3 className="prod-name">scrims.lol</h3>
             </div>
             <div className="prod-cols">
@@ -126,7 +132,13 @@ export default async function ProductsPage({ params }: Props) {
           <div className="wrap">
             <span className="prod-eyebrow">{arenabr.eyebrow}</span>
             <div className="prod-head">
-              <Image src="/logos/arenabr-logo.png" alt="ArenaBR" width={84} height={26} />
+              <Image
+                src="/logos/arenabr-logo.png"
+                alt="ArenaBR"
+                width={155}
+                height={48}
+                className="is-wordmark"
+              />
             </div>
             <div className="prod-cols">
               <div>
