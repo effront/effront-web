@@ -132,6 +132,7 @@
     "peneira": {
       "eyebrow": "Para encontrar (y armar) equipo",
       "status": "MVP en desarrollo",
+      "cta": "Ir a peneira.gg →",
       "body": "Reclutamiento y tryouts para la escena amateur y semi-pro brasileña: banco de talentos, vacantes de equipos y tryouts - construido sobre datos reales de la Riot API vía riot-gateway, no perfiles auto-declarados.",
       "features": [
         "Banco de talentos con filtros y perfiles públicos",
@@ -147,7 +148,11 @@
       "tagline": "Reclutamiento y tryouts impulsados por datos reales de la Riot API."
     },
     "pageIntro": "Un producto por etapa del recorrido competitivo - del amateur en ascenso a la organización que ya compite al más alto nivel.",
-    "viewAll": "Ver todos los productos →"
+    "viewAll": "Ver todos los productos →",
+    "productStats": "Métricas del producto",
+    "clients": "Clientes",
+    "comingSoon": "Próximamente",
+    "previewSoon": "Vista previa próximamente"
   },
   "Contact": {
     "sectionLabel": "Contacto",

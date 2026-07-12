@@ -132,6 +132,7 @@
     "peneira": {
       "eyebrow": "Para quem procura (e monta) time",
       "status": "MVP em desenvolvimento",
+      "cta": "Ir para peneira.gg →",
       "body": "Recrutamento e tryouts para o cenário amador e semi-profissional brasileiro: banco de talentos, vagas de times e peneiras - construído sobre dados reais da Riot API via riot-gateway, em vez de perfil auto-declarado.",
       "features": [
         "Banco de talentos com filtros e perfis públicos",
@@ -147,7 +148,11 @@
       "tagline": "Recrutamento e tryouts alimentados por dados reais da Riot API."
     },
     "pageIntro": "Um produto por etapa da jornada competitiva - do amador em ascensão à organização que já compete no mais alto nível.",
-    "viewAll": "Ver todos os produtos →"
+    "viewAll": "Ver todos os produtos →",
+    "productStats": "Métricas do produto",
+    "clients": "Clientes",
+    "comingSoon": "Em breve",
+    "previewSoon": "Prévia em breve"
   },
   "Contact": {
     "sectionLabel": "Contato",

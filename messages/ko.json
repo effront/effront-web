@@ -126,6 +126,7 @@
     "peneira": {
       "eyebrow": "팀을 찾고, 팀을 꾸리는 사람들을 위해",
       "status": "MVP 개발 중",
+      "cta": "peneira.gg 바로가기 →",
       "body": "브라질 아마추어·세미프로 씬을 위한 리크루팅과 트라이아웃: 인재 풀, 팀 공고, 트라이아웃 이벤트 - 자기 신고 프로필이 아니라 riot-gateway를 통한 실제 Riot API 데이터 위에 구축.",
       "features": [
         "필터와 공개 프로필을 갖춘 인재 풀",
@@ -141,7 +142,11 @@
       "tagline": "실제 Riot API 데이터 기반 리크루팅과 트라이아웃."
     },
     "pageIntro": "경쟁의 여정 단계마다 하나의 제품 - 성장 중인 아마추어 팀부터 이미 최고 수준에서 경쟁하는 조직까지.",
-    "viewAll": "모든 제품 보기 →"
+    "viewAll": "모든 제품 보기 →",
+    "productStats": "제품 지표",
+    "clients": "클라이언트",
+    "comingSoon": "출시 예정",
+    "previewSoon": "미리보기 준비 중"
   },
   "Contact": {
     "sectionLabel": "문의",

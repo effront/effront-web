@@ -1,9 +1,12 @@
+import fs from "node:fs";
+import path from "node:path";
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
+import { ProductsShowcase, type ShowcaseProduct } from "@/components/ProductsShowcase";
+import { PRODUCTS } from "@/data/products";
 import type { Locale } from "@/i18n/routing";
 
 export async function generateMetadata({
@@ -30,7 +33,33 @@ export default async function LandingPage({ params }: Props) {
 
   const words = tHero.raw("words") as string[];
   const capItems = tCap.raw("items") as { tag: string; title: string; body: string }[];
-  const prostaff = tProd.raw("prostaff");
+
+  const showcaseProducts: ShowcaseProduct[] = PRODUCTS.map((meta) => {
+    const copy = tProd.raw(meta.id) as {
+      eyebrow: string;
+      body: string;
+      features: string[];
+      cta: string;
+      status?: string;
+    };
+    const shot = path.join(process.cwd(), "public", "products", `${meta.id}.webp`);
+    return {
+      ...meta,
+      eyebrow: copy.eyebrow,
+      status: copy.status,
+      body: copy.body,
+      features: copy.features,
+      cta: copy.cta,
+      image: fs.existsSync(shot) ? `/products/${meta.id}.webp` : null,
+    };
+  });
+
+  const productLabels = {
+    stats: tProd("productStats"),
+    clients: tProd("clients"),
+    comingSoon: tProd("comingSoon"),
+    previewSoon: tProd("previewSoon"),
+  };
 
   return (
     <>
@@ -112,16 +141,8 @@ export default async function LandingPage({ params }: Props) {
             <h2>{tProd("heading")}</h2>
             <p>{tProd("pageIntro")}</p>
           </div>
-          <Link href="/products#prostaff" className="proud-card proud-card-solo">
-            <div className="proud-header">
-              <Image src="/logos/prostaff-logo.png" alt="ProStaff" width={40} height={40} />
-              <span className="p-name">ProStaff</span>
-            </div>
-            <div className="proud-body">
-              <p>{prostaff.tagline}</p>
-            </div>
-          </Link>
-          <Link href="/products" className="mission-link mt-10">
+          <ProductsShowcase products={showcaseProducts} labels={productLabels} />
+          <Link href="/products" className="mission-link mt-10 inline-block">
             {tProd("viewAll")}
           </Link>
         </div>

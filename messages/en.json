@@ -132,6 +132,7 @@
     "peneira": {
       "eyebrow": "For finding (and building) a team",
       "status": "MVP in development",
+      "cta": "Go to peneira.gg →",
       "body": "Recruitment and tryouts for the Brazilian amateur and semi-pro scene: a talent pool, team openings and tryout events - built on real Riot API data via riot-gateway, not self-declared profiles.",
       "features": [
         "Talent pool with filters and public profiles",
@@ -147,7 +148,11 @@
       "tagline": "Recruitment and tryouts powered by real Riot API data."
     },
     "pageIntro": "One product per stage of the competitive journey - from the amateur team on the rise to the organization already competing at the highest level.",
-    "viewAll": "See all products →"
+    "viewAll": "See all products →",
+    "productStats": "Product stats",
+    "clients": "Clients",
+    "comingSoon": "Coming soon",
+    "previewSoon": "Preview coming soon"
   },
   "Contact": {
     "sectionLabel": "Contact",
